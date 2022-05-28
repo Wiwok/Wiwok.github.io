@@ -1,0 +1,134 @@
+body {
+	/* FF3.6-15 */
+	background: -moz-linear-gradient(26deg, #4402E3 40%, #0803FD 60%);
+	/* Chrome10-25, Safari5.1-6 */
+	background: -webkit-linear-gradient(26deg, #4402E3 40%, #0803FD 60%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: linear-gradient(26deg, #4402E3 40%, #0803FD 60%);
+	/* IE6-9*/
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#4402E3', endColorstr='#0803FD', GradientType=1);
+	background-attachment: fixed;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+	color: black;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: black;
+}
+
+.welcomeBox {
+	width: fit-content;
+	height: fit-content;
+	margin-top: 25vh;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30vh;
+	background-color: white;
+	border-radius: 1vmax;
+	font-size: 5vmax;
+	padding: 0.5vmax;
+}
+
+.myBox {
+	width: fit-content;
+	height: fit-content;
+	margin-top: 10vh;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	border-radius: 1vmax;
+	font-size: 1vmax;
+	padding: 0.5vmax;
+}
+
+.logo {
+	width: 10vmax;
+	margin: 1vh auto;
+}
+
+.myBox h1 {
+	text-align: center;
+	font-size: 3vmax;
+	margin: 2vh auto;
+}
+
+.chatBox {
+	width: 80vw;
+	height: fit-content;
+	margin: auto auto;
+}
+
+.answer {
+	max-width: 30vw;
+	width: fit-content;
+	height: fit-content;
+	margin-top: 20vh;
+	margin-left: auto;
+	background-color: white;
+	border-radius: 1vmax 1vmax 0 1vmax;
+	font-size: 1vmax;
+	padding: 0.5vmax;
+	box-shadow: 1vmax 1vmax 70px rgba(0, 0, 0, 0.541);
+}
+
+.question {
+	max-width: 30vw;
+	width: fit-content;
+	height: fit-content;
+	margin-top: 20vh;
+	margin-right: auto;
+	background-color: white;
+	border-radius: 1vmax 1vmax 1vmax 0vmax;
+	font-size: 1vmax;
+	padding: 0.5vmax;
+	box-shadow: -1vmax 1vmax 70px rgba(0, 0, 0, 0.541);
+}
+
+.title {
+	width: fit-content;
+	height: fit-content;
+	text-align: center;
+	font-size: 3vmax;
+	margin: 2vh auto;
+	margin-top: 10vh;
+	background-color: white;
+	border-radius: 1vmax;
+	padding: 0.5vmax;
+	font-size: 3vmax;
+}
+
+.languageList {
+	max-width: 80vw;
+	width: fit-content;
+	height: fit-content;
+	margin-top: 10vh;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.language {
+	width: fit-content;
+	height: fit-content;
+	margin-top: 10vh;
+	margin: 5vw 5vh;
+	background-color: white;
+	border-radius: 1vmax;
+	font-size: 1vmax;
+	padding: 0.5vmax;
+}
+
+.language img {
+	height: 10vmax;
+}
+
+.language p {
+	margin: 0;
+	text-align: center;
+	font-size: 1.5vmax;
+}
