@@ -70,7 +70,7 @@ a:visited {
 	margin-left: auto;
 	background-color: white;
 	border-radius: 1vmax 1vmax 0 1vmax;
-	font-size: 1vmax;
+	font-size: 2vmax;
 	padding: 0.5vmax;
 	box-shadow: 1vmax 1vmax 70px rgba(0, 0, 0, 0.541);
 }
@@ -83,7 +83,7 @@ a:visited {
 	margin-right: auto;
 	background-color: white;
 	border-radius: 1vmax 1vmax 1vmax 0vmax;
-	font-size: 1vmax;
+	font-size: 2vmax;
 	padding: 0.5vmax;
 	box-shadow: -1vmax 1vmax 70px rgba(0, 0, 0, 0.541);
 }
@@ -102,7 +102,7 @@ a:visited {
 }
 
 .languageList {
-	max-width: 80vw;
+	max-width: 90vw;
 	width: fit-content;
 	height: fit-content;
 	margin-top: 10vh;
@@ -110,6 +110,8 @@ a:visited {
 	margin-left: auto;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .language {
